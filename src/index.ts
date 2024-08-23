@@ -148,6 +148,12 @@ class Printer {
     });
   }
 
+  public pulse(): void {
+    this.results.push({
+      type: PrinterActionsTypes.pulse,
+    });
+  }
+
   public close(): void {
     this.results.push({
       type: PrinterActionsTypes.close,
