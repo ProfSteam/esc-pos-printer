@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yayidg22/esc-pos-printer.git"
+    "url": "git+https://github.com/profsteam/esc-pos-printer.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
